@@ -88,7 +88,6 @@ To stop the server: `Ctrl+C` in the terminal.
 │   ├── *_feature_analysis.png         ← feature distribution plots
 │   └── *_evaluation.png               ← TP/FP/FN overlay
 └── paper/
-    ├── CT103-3-M-IPCV Assignment - Part 2 (APUMF2512AI).pdf
     └── Delineation_of_Individual_Tree_Crowns_Using_High_Spatial_
         Resolution_Multispectral_WorldView-3_Satellite_Imagery.pdf
 ```
