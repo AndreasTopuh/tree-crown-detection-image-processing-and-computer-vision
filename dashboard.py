@@ -830,11 +830,11 @@ if st.session_state.page == "home":
 
     sample_cols = st.columns(3)
     samples = [
-        ("phonpadat1", "Dense Forest",
+        ("image1", "Dense Forest",
          "Closed canopy — pipeline handles heavy occlusion"),
-        ("pohonpisah2", "Scattered Trees",
+        ("image2", "Scattered Trees",
          "Isolated crowns — clean individual separation"),
-        ("campuran3", "Mixed Urban",
+        ("image3", "Mixed Urban",
          "Urban-vegetation mix — rejects buildings & roads"),
     ]
     for col, (fname, title, desc) in zip(sample_cols, samples):
