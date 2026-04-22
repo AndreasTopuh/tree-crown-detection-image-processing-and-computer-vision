@@ -65,20 +65,17 @@ To stop the server: `Ctrl+C` in the terminal.
 
 ```
 .
-├── README.md                          ← this file
 ├── dashboard.py                       ← interactive Streamlit dashboard
 ├── requirements.txt                   ← Python dependencies
-├── report.md                          ← APA-format technical report
-├── plan.md                            ← original project plan
 ├── .streamlit/
 │   └── config.toml                    ← Streamlit server config
 ├── src/
 │   ├── tree_detection_pipeline.py     ← main 5-stage pipeline
 │   └── evaluate_metrics.py            ← pixel + object-level metrics
 ├── data/                              ← test satellite/aerial images
-│   ├── phonpadat1.png                 ← dense forest scene
-│   ├── pohonpisah2.png                ← scattered trees
-│   └── campuran3.png                  ← mixed urban-vegetation
+│   ├── image1.png                     ← dense forest scene
+│   ├── image2.png                     ← scattered trees
+│   └── image3.png                     ← mixed urban-vegetation
 ├── output/                            ← pre-generated results (21 PNGs)
 │   ├── *_result.png                   ← final annotated detection
 │   ├── *_annotated.png                ← overlay with crown numbers
@@ -120,7 +117,7 @@ Dependencies:
 streamlit run dashboard.py
 ```
 
-Open `http://localhost:8501`. Upload an image from `data/` and click
+Open `http://localhost:8501`. Upload an any tree image and click
 **🚀 Run Detection Pipeline**. Features:
 
 - Theme toggle (☀️ Light / 🌙 Dark)
@@ -134,7 +131,7 @@ Open `http://localhost:8501`. Upload an image from `data/` and click
 from src.tree_detection_pipeline import run_pipeline
 
 result = run_pipeline(
-    image_path="data/phonpadat1.png",
+    image_path="data/image1.png",
     output_dir="output",
     min_distance=15,
     n_clusters=4,
@@ -178,14 +175,11 @@ Average across the three test scenes (Fredericton-style, Google Earth Pro):
 | Recall        | 0.856  | 0.79               |
 | ORR           | 0.432  | 0.74               |
 
-See `report.md` for full APA-format analysis, discussion, and comparison
-with the reference paper.
-
 ---
 
 ## Author
 
-**Andreas Jeno Figo Topuh**
+**Andreas Jeno Figo Topuh - TP103728**
 APUMF2512AI · MSc Artificial Intelligence
 Asia Pacific University of Technology & Innovation
 
