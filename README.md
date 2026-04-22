@@ -182,4 +182,9 @@ Average across the three test scenes (Fredericton-style, Google Earth Pro):
 APUMF2512AI · MSc Artificial Intelligence
 Asia Pacific University of Technology & Innovation
 
+---
 
+## License
+
+This project currently does not include a license file.
+Please contact the author for usage permissions.
