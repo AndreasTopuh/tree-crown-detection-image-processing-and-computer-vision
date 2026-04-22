@@ -183,9 +183,4 @@ Average across the three test scenes (Fredericton-style, Google Earth Pro):
 APUMF2512AI · MSc Artificial Intelligence
 Asia Pacific University of Technology & Innovation
 
-## References
 
-Tong, F., Tong, H., Mishra, R., & Zhang, Y. (2021). *Delineation of
-Individual Tree Crowns Using High Spatial Resolution Multispectral
-WorldView-3 Satellite Imagery.* IEEE Journal of Selected Topics in Applied
-Earth Observations and Remote Sensing, 14, 7751–7761.
