@@ -5,7 +5,6 @@ Area Segmentation and Individual Tree Detection**
 
 Module: **CT103-3-M-IPCV** (Image Processing and Computer Vision)
 Programme: MSc Artificial Intelligence — Asia Pacific University
-Intake: **APUMF2512AI**
 
 ---
 
