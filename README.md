@@ -84,7 +84,7 @@ To stop the server: `Ctrl+C` in the terminal.
 │   ├── *_ground_truth.png             ← auto-generated GT mask
 │   ├── *_feature_analysis.png         ← feature distribution plots
 │   └── *_evaluation.png               ← TP/FP/FN overlay
-└── paper/
+└── refrence/
     └── Delineation_of_Individual_Tree_Crowns_Using_High_Spatial_
         Resolution_Multispectral_WorldView-3_Satellite_Imagery.pdf
 ```
