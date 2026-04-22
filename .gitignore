@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS junk
+~$*
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit runtime (keep config.toml, exclude cache)
+.streamlit/secrets.toml
+
+# Large temporary outputs — uncomment if output/ gets regenerated frequently
+# output/*.png
